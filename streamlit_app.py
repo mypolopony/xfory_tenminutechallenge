@@ -43,12 +43,12 @@ if __name__ == "__main__":
     # Automatically generate combination on page load
     x = random.choice(TECH_COMPANIES)
     y = random.choice(plural_nouns)
-    st.markdown(f"### 👉 It's like the **{x}** for **{y}**.")
+    st.markdown(f"### 🌈 It's like the **{x}** for **{y}**.")
     
     # Add a refresh button to generate a new combination
     if st.button("🔁 Generate Another"):
         st.rerun()
     
-    st.image("img/abhishek.png", caption="a beautiful milk")
     st.image("img/arjun.png", caption="a strong warrior")
-
+    st.image("img/abhishek.png", caption="a beautiful milk")
+    
