@@ -48,3 +48,7 @@ if __name__ == "__main__":
     # Add a refresh button to generate a new combination
     if st.button("🔁 Generate Another"):
         st.rerun()
+    
+    st.image("img/abhishek.png", caption="a beautiful milk")
+    st.image("img/arjun.png", caption="a strong warrior")
+
